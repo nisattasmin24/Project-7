@@ -222,5 +222,50 @@ main section{
 
 .resume-download-cv{
     margin-top: 50px;
+    margin-bottom: 113px;
     font-size: 20px;
+}
+
+/* Footer Section */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.ftp{
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.ft-icons{
+    margin-right: 40px;
+    width: 120px;
+    height: 24px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
